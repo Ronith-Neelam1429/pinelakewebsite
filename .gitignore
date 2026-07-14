@@ -1,0 +1,16 @@
+node_modules/
+.vite/
+dist/
+build/
+.DS_Store
+.env
+.env.local
+.idea/
+.vscode/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+*.tgz
