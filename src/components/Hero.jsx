@@ -8,22 +8,19 @@ export default function Hero() {
       style={{ backgroundImage: `url(${siteConfig.heroImage})` }}
     >
       <div className="hero__content">
-        <div className="hero__dots">
-          {Array.from({ length: 9 }).map((_, i) => (
-            <span key={i} />
-          ))}
-        </div>
-        <h1 className="hero__title">{siteConfig.name}</h1>
-        <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
+        <p className="hero__eyebrow">{siteConfig.tagline}</p>
+        <h1 className="hero__title">{siteConfig.heroHeadline}</h1>
+        <h2 className="hero__subtitle">{siteConfig.heroSubheadline}</h2>
+        <p className="hero__intro">{siteConfig.intro}</p>
         <div className="hero__actions">
           <a href={siteConfig.phoneLink} className="hero__phone">
             {siteConfig.phone}
           </a>
           <Link to="/contact-us" className="btn btn--primary">
-            ✉ Send Message
+            Send Message
           </Link>
           <a href={siteConfig.phoneLink} className="btn btn--outline">
-            📞 Call
+            Call
           </a>
         </div>
       </div>

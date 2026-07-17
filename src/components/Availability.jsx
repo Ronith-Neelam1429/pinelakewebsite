@@ -19,8 +19,8 @@ export default function Availability() {
         <p className="section__eyebrow">Hours</p>
         <h2 className="section__title">Availability</h2>
         <p className="section__subtitle availability-section__intro">
-          Visit us Monday through Friday — our team is ready to help with
-          prescriptions, immunizations, and personalized care.
+          Open Monday through Saturday — stop by for prescriptions,
+          immunizations, and personalized care.
         </p>
         <div className="availability-panel">
           <div className="availability-panel__header">
@@ -32,7 +32,9 @@ export default function Availability() {
             </span>
             <div>
               <p className="availability-panel__label">Weekly schedule</p>
-              <p className="availability-panel__note">Open 8:30 AM – 5:00 PM on weekdays</p>
+              <p className="availability-panel__note">
+                Weekdays 9:00 AM – 6:00 PM · Saturday 10:00 AM – 2:00 PM
+              </p>
             </div>
           </div>
           <div className="availability-grid">

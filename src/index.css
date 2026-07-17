@@ -234,18 +234,13 @@ button {
   width: 100%;
 }
 
-.hero__dots {
-  display: grid;
-  grid-template-columns: repeat(3, 6px);
-  gap: 6px;
-  margin-bottom: 20px;
-}
-
-.hero__dots span {
-  width: 6px;
-  height: 6px;
-  background: #ccc;
-  border-radius: 50%;
+.hero__eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 12px;
 }
 
 .hero__title {
@@ -259,6 +254,15 @@ button {
   font-family: var(--font-serif);
   font-size: 28px;
   font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 16px;
+}
+
+.hero__intro {
+  max-width: 520px;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1.6;
   margin-bottom: 24px;
 }
 
@@ -640,6 +644,17 @@ button {
   font-family: var(--font-serif);
   font-size: 22px;
   margin-bottom: 20px;
+}
+
+.features-panel__motto {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
+  opacity: 0.95;
 }
 
 .features-list {
@@ -1192,19 +1207,89 @@ button {
   text-align: center;
 }
 
+/* More than a pharmacy */
+.more-section {
+  background: var(--bg-light);
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.more-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-dark);
+  box-shadow: var(--shadow);
+}
+
 /* Footer */
 .footer {
   background: linear-gradient(180deg, #0f4c75 0%, #0a3552 100%);
   color: var(--white);
-  padding: 28px 24px;
-  text-align: center;
+  padding: 40px 24px 28px;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1.4fr 1fr 1fr;
+  gap: 28px;
+  text-align: left;
+}
+
+.footer__name {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer__motto {
+  font-size: 14px;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.footer__label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer__block a {
+  opacity: 0.9;
+}
+
+.footer__block a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .footer__links {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 16px;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
 }
 
 .footer__links a {
@@ -1319,7 +1404,8 @@ button {
 
   .why-grid,
   .two-col,
-  .contact-info-grid {
+  .contact-info-grid,
+  .footer__grid {
     grid-template-columns: 1fr;
   }
 

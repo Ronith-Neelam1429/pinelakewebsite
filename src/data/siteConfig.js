@@ -1,57 +1,89 @@
 import { images } from "./images";
 
 export const siteConfig = {
-  name: "Pinelake Pharmacy",
-  shortName: "Pinelake",
-  tagline: "Guiding You Along The Path To Wellness",
-  location: "Pinelake",
+  name: "PineLake Pharmacy",
+  shortName: "PineLake",
+  tagline: "Local Care. Trusted Service.",
+  heroHeadline: "Your Neighborhood Pharmacy",
+  heroSubheadline: "Caring for Our Community.",
+  intro:
+    "PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve.",
+  motto: "Your health. Our priority. Every time.",
+  location: "PineLake",
   city: "Sammamish",
   state: "Washington",
   zip: "98075",
-  address: "22833 SE 24th St, Ste 100, Sammamish, Washington, 98075",
+  address: "3042 Issaquah Pine Lake Rd SE, Sammamish, Washington, 98075",
   phone: "(425) 944-9444",
   phoneLink: "tel:+14259449444",
-  email: "Pinelakepharmacy@gmail.com",
-  emailLink: "mailto:Pinelakepharmacy@gmail.com",
-  inboxEmail: "Pinelakepharmacy@gmail.com",
+  email: "pinelakepharmacy@gmail.com",
+  emailLink: "mailto:pinelakepharmacy@gmail.com",
+  inboxEmail: "pinelakepharmacy@gmail.com",
+  website: "pinelakepharmacy.com",
+  websiteUrl: "https://pinelakepharmacy.com",
   rxLocalUrl: "https://patient.rxlocal.com/",
+  facebook: "https://www.facebook.com/PineLakePharmacy",
+  facebookHandle: "@PineLakePharmacy",
+  instagram: "https://www.instagram.com/pinelakepharmacy",
+  instagramHandle: "@pinelakepharmacy",
   topBarMessage:
-    "Call us to set up a schedule to talk about your medication plan. Pinelake Pharmacy is always at your service!",
+    "Call us to set up a schedule to talk about your medication plan. PineLake Pharmacy is always at your service!",
   heroImage: images.hero,
   vaccineBanner:
-    "We currently have the new Flu and Pfizer covid vaccine in stock",
+    "Flu, COVID-19, Shingles & more — immunizations available, walk-ins welcome",
   hours: [
     { day: "Sunday", hours: "Closed" },
-    { day: "Monday", hours: "8:30 AM - 5:00 PM" },
-    { day: "Tuesday", hours: "8:30 AM - 5:00 PM" },
-    { day: "Wednesday", hours: "8:30 AM - 5:00 PM" },
-    { day: "Thursday", hours: "8:30 AM - 5:00 PM" },
-    { day: "Friday", hours: "8:30 AM - 5:00 PM" },
-    { day: "Saturday", hours: "Closed" },
+    { day: "Monday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Tuesday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Wednesday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Thursday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Friday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Saturday", hours: "10:00 AM - 2:00 PM" },
   ],
   whyChooseUs: [
     {
-      title: "Unmatched Professionalism",
+      title: "Personalized Care",
       description:
-        "At Pinelake Pharmacy, professionalism is our cornerstone. Our highly trained team ensures accurate prescriptions, expert guidance, and compassionate care, setting a standard for excellence in healthcare services. Your well-being is our top priority.",
+        "We take the time to get to know you and your health needs.",
     },
     {
-      title: "Experienced Staff",
+      title: "Prescription Services",
       description:
-        "Trust our expertise for precise medication management and personalized healthcare solutions. Your health is in capable hands.",
+        "Fast, accurate, and convenient prescription refills and transfers.",
     },
     {
-      title: "We Are Here for You!",
+      title: "Medication Review",
       description:
-        "Our customer care at Pinelake Pharmacy is exceptional. We prioritize your needs, offering friendly, efficient service, expert guidance, and a commitment to your well-being. Your satisfaction and health are our top priorities.",
+        "We help you understand your medications and how they work.",
+    },
+    {
+      title: "Free Local Delivery",
+      description:
+        "Reliable delivery to Sammamish and surrounding areas.",
+    },
+    {
+      title: "Community Focused",
+      description:
+        "Proudly supporting the health and wellness of our neighbors.",
     },
   ],
   features: [
-    "Medication Management",
-    "Exceptional Customer Service",
-    "Expert Pharmacy Team",
-    "Personalized Care",
-    "Vaccination Services",
+    "Prescription Fill & Refills",
+    "Medication Synchronization",
+    "Immunizations (Flu, COVID-19, Shingles & more)",
+    "Health Screenings (Blood Pressure & more)",
+    "Over-the-Counter Health Solutions",
+    "Insurance Assistance",
+    "Special Packaging (Blister/Bubble)",
+  ],
+  moreThanPharmacy: [
+    "Over-the-Counter Medications",
+    "Vitamins & Supplements",
+    "Health & Wellness",
+    "Personal Care Essentials",
+    "Snacks & Beverages",
+    "Greeting Cards & Gifts",
+    "Convenient Parking & Easy Access",
   ],
   reviews: [
     {

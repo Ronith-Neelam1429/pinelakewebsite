@@ -1,39 +1,35 @@
 export const aboutArticles = [
   {
     slug: "the-best-pharmacy-in-pinelake",
-    title: "The Best Pharmacy in Pinelake",
+    title: "Your Neighborhood Pharmacy",
     excerpt:
-      "Pinelake Pharmacy in Sammamish, Washington, is more than just a place to fill prescriptions and get vaccinations. We understand that healthcare products are only as valuable as the people who deliver them. That's why our focus is on the dedicated individuals who provide for your healthcare needs and handle your ...",
-    content: `Pinelake Pharmacy in Sammamish, Washington, is more than just a place to fill prescriptions and get vaccinations. We understand that healthcare products are only as valuable as the people who deliver them. That's why our focus is on the dedicated individuals who provide for your healthcare needs and handle your prescription medication orders.
+      "PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. More than prescriptions and vaccinations — we're here for our Sammamish community.",
+    content: `PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. We are more than just a place to fill prescriptions and get vaccinations — we understand that healthcare products are only as valuable as the people who deliver them.
 
-Our team consists of highly capable pharmacists and pharmacy technicians, meticulously chosen to ensure that our service consistently meets or exceeds our rigorous standards. They bring knowledge, experience, and skill to our pharmacy, and they put it into action by genuinely assisting customers with their health needs. Whether you're seeking prescription medications, vitamins, food supplements, pet medications, or medical supplies, our team is here to provide quick and accurate solutions.
+Our team consists of highly capable pharmacists and pharmacy technicians, carefully chosen so our service consistently meets or exceeds rigorous standards. Whether you need prescription medications, vitamins, food supplements, pet medications, or medical supplies, we are here with quick, accurate solutions.
 
-At Pinelake Pharmacy, we pride ourselves on our ability to swiftly and precisely address the needs of patients, customers, and healthcare providers. We guarantee a team that is approachable, knowledgeable, and always ready to assist you every time you reach out to us, whether by phone or in person.
-
-If you're looking for a pharmacy that goes the extra mile to ensure your health and well-being, we're here for you. Call us at (425) 944-9444 for immediate assistance or schedule a pharmacist consultation for personalized guidance. Pinelake Pharmacy is your trusted partner in health and wellness, always at your service.`,
+We take pride in getting to know you and your health needs. Call us at (425) 944-9444 or stop by our Sammamish location for personalized guidance. Local care. Trusted service.`,
   },
   {
     slug: "your-trusted-partner-in-health-and-wellness",
-    title: "Your Trusted Partner in Health and Wellness",
+    title: "Caring for Our Community",
     excerpt:
-      "Our commitment to your well-being extends beyond just filling prescriptions and administering vaccinations. We understand that the effectiveness of healthcare products is greatly influenced by the expertise and dedication of the individuals who provide them.Our team comprises detail-oriented and highly capable ...",
-    content: `Our commitment to your well-being extends beyond just filling prescriptions and administering vaccinations. We understand that the effectiveness of healthcare products is greatly influenced by the expertise and dedication of the individuals who provide them. Our team comprises detail-oriented and highly capable pharmacists and pharmacy technicians who are carefully selected to ensure that our service consistently meets or exceeds the highest standards. We pride ourselves on being a knowledgeable, experienced, and skilled team, translating our education and experience into tangible assistance for you.
+      "Our commitment goes beyond filling prescriptions. From medication reviews to free local delivery across Sammamish and surrounding areas, we support the health and wellness of our neighbors.",
+    content: `Our commitment to your well-being extends beyond filling prescriptions and administering vaccinations. We help you understand your medications, offer medication synchronization, and provide free local delivery to Sammamish and surrounding areas.
 
-Whether you're in need of prescription medications, vitamins, food supplements, pet medications, or medical supplies, we are here to provide fast, accurate, and reliable solutions. Our goal is to streamline your access to essential healthcare products, making it easier for you to prioritize your health and well-being.
+Whether you need prescription medications, vitamins, food supplements, pet medications, or medical supplies, we provide fast, accurate, and reliable solutions. Our goal is to make it easier for you to prioritize your health.
 
-At Pinelake Pharmacy, we define ourselves by our ability to swiftly and precisely address the needs of patients, customers, and healthcare providers. Our personnel are approachable, knowledgeable, and cooperative, ensuring you have the support you need whenever you call or visit our drugstore.`,
+At PineLake Pharmacy, we define ourselves by how quickly and carefully we address the needs of patients, customers, and healthcare providers — approachable, knowledgeable, and ready whenever you call or visit.`,
   },
   {
     slug: "our-exceptional-customer-service",
-    title: "Our Exceptional Customer Service",
+    title: "Your Health. Our Priority. Every Time.",
     excerpt:
-      "We understand that when you trust us with your healthcare needs, you deserve nothing but the best, and we're committed to delivering that level of service each and every day. Our dedication to exceptional customer service begins with our team. We take great care in selecting and training our staff, ensuring that ...",
-    content: `We understand that when you trust us with your healthcare needs, you deserve nothing but the best, and we're committed to delivering that level of service each and every day. Our dedication to exceptional customer service begins with our team. We take great care in selecting and training our staff, ensuring that they are not only knowledgeable and skilled but also compassionate and approachable. When you walk through our doors or reach out to us, you're greeted by friendly faces who are genuinely interested in helping you.
+      "From immunizations with walk-ins welcome to blister packaging, insurance assistance, and a full selection of OTC and wellness products — we make every visit count.",
+    content: `When you trust us with your healthcare needs, you deserve nothing but the best. Our dedication to exceptional service starts with our team — knowledgeable, compassionate, and genuinely interested in helping you.
 
-We take the time to listen to your concerns, answer your questions, and provide expert guidance. Whether you're seeking advice on medications, health supplements, or medical supplies, our team is here to offer personalized recommendations tailored to your unique needs.
+We listen to your concerns, answer your questions, and offer personalized recommendations. Immunizations (Flu, COVID-19, Shingles, and more) are available with walk-ins welcome. We also offer health screenings, special blister/bubble packaging, insurance assistance, and a wide range of over-the-counter health solutions.
 
-At Pinelake Pharmacy, we understand that your time is valuable, and we strive to make your experience as efficient as possible. Our pharmacists work diligently to ensure that your prescriptions are filled accurately and promptly. We also offer services like prescription refills and prescription mail-outs, making it even more convenient for you to access your medications.
-
-In addition to our in-store support, we are just a phone call away. Our commitment to accessibility means you can always reach us to discuss your health concerns or medication questions. We're here to provide the guidance and reassurance you need, ensuring that you have the information required to make informed healthcare decisions.`,
+Beyond prescriptions, you'll find vitamins and supplements, personal care essentials, snacks and beverages, greeting cards and gifts — plus convenient parking and easy access. Your health. Our priority. Every time.`,
   },
 ];

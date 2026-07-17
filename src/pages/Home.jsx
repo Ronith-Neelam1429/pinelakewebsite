@@ -51,11 +51,10 @@ export default function Home() {
 
       <section className="section why-section">
         <div className="container">
-          <p className="section__eyebrow">Our promise</p>
-          <h2 className="section__title">Why Choose Us?</h2>
+          <p className="section__eyebrow">Why choose PineLake Pharmacy?</p>
+          <h2 className="section__title">Local Care. Trusted Service.</h2>
           <p className="section__subtitle why-section__intro">
-            Care that feels personal — accurate prescriptions, clear guidance,
-            and a team that puts your well-being first.
+            {siteConfig.intro}
           </p>
           <div className="why-grid">
             <div className="why-cards">
@@ -72,13 +71,28 @@ export default function Home() {
               ))}
             </div>
             <aside className="features-panel">
-              <h3 className="features-panel__title">What we offer</h3>
+              <h3 className="features-panel__title">Our services</h3>
               <ul className="features-list">
                 {siteConfig.features.map((feature) => (
                   <li key={feature}>{feature}</li>
                 ))}
               </ul>
+              <p className="features-panel__motto">{siteConfig.motto}</p>
             </aside>
+          </div>
+        </div>
+      </section>
+
+      <section className="section more-section">
+        <div className="container">
+          <p className="section__eyebrow">More than a pharmacy</p>
+          <h2 className="section__title">Everything you need, all in one place</h2>
+          <div className="more-grid">
+            {siteConfig.moreThanPharmacy.map((item) => (
+              <div key={item} className="more-item">
+                {item}
+              </div>
+            ))}
           </div>
         </div>
       </section>
