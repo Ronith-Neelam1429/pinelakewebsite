@@ -3,10 +3,13 @@ import { siteConfig } from "../data/siteConfig";
 
 export default function Hero() {
   return (
-    <section
-      className="hero"
-      style={{ backgroundImage: `url(${siteConfig.heroImage})` }}
-    >
+    <section className="hero">
+      <img
+        className="hero__image"
+        src={siteConfig.heroImage}
+        alt=""
+        aria-hidden="true"
+      />
       <div className="hero__content">
         <p className="hero__eyebrow">{siteConfig.tagline}</p>
         <h1 className="hero__title">{siteConfig.heroHeadline}</h1>

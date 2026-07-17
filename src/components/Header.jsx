@@ -34,8 +34,7 @@ export default function Header() {
         <div className="header__inner">
           <Link to="/" className="logo">
             <div className="logo__icon">
-              <span className="logo__letters">PL</span>
-              <span className="logo__caduceus">⚕</span>
+              <img src="/logo.png" alt={`${siteConfig.name} logo`} />
             </div>
             <div className="logo__text">
               <span className="logo__script">{siteConfig.shortName}</span>

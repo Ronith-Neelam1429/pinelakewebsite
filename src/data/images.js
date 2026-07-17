@@ -2,7 +2,7 @@
 const CDN = "https://img77.uenicdn.com/image/upload";
 
 export const images = {
-  hero: `${CDN}/v1695656341/business/153650dca8114fc18b5e1091a4044f8f.jpg`,
+  hero: "/images/hero-banner.png",
 
   about: [
     "/images/about-pharmacy.jpg",
