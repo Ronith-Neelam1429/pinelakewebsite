@@ -3,8 +3,8 @@ export const aboutArticles = [
     slug: "the-best-pharmacy-in-pinelake",
     title: "Your Neighborhood Pharmacy",
     excerpt:
-      "PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. More than prescriptions and vaccinations — we're here for our Sammamish community.",
-    content: `PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. We are more than just a place to fill prescriptions and get vaccinations — we understand that healthcare products are only as valuable as the people who deliver them.
+      "Pine Lake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. More than prescriptions and vaccinations — we're here for our Sammamish community.",
+    content: `Pine Lake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve. We are more than just a place to fill prescriptions and get vaccinations — we understand that healthcare products are only as valuable as the people who deliver them.
 
 Our team consists of highly capable pharmacists and pharmacy technicians, carefully chosen so our service consistently meets or exceeds rigorous standards. Whether you need prescription medications, vitamins, food supplements, pet medications, or medical supplies, we are here with quick, accurate solutions.
 
@@ -19,7 +19,7 @@ We take pride in getting to know you and your health needs. Call us at (425) 944
 
 Whether you need prescription medications, vitamins, food supplements, pet medications, or medical supplies, we provide fast, accurate, and reliable solutions. Our goal is to make it easier for you to prioritize your health.
 
-At PineLake Pharmacy, we define ourselves by how quickly and carefully we address the needs of patients, customers, and healthcare providers — approachable, knowledgeable, and ready whenever you call or visit.`,
+At Pine Lake Pharmacy, we define ourselves by how quickly and carefully we address the needs of patients, customers, and healthcare providers — approachable, knowledgeable, and ready whenever you call or visit.`,
   },
   {
     slug: "our-exceptional-customer-service",

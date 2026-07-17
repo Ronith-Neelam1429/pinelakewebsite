@@ -51,7 +51,7 @@ export default function Home() {
 
       <section className="section why-section">
         <div className="container">
-          <p className="section__eyebrow">Why choose PineLake Pharmacy?</p>
+          <p className="section__eyebrow">Why choose Pine Lake Pharmacy?</p>
           <h2 className="section__title">Local Care. Trusted Service.</h2>
           <p className="section__subtitle why-section__intro">
             {siteConfig.intro}

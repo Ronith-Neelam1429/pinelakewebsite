@@ -1,15 +1,15 @@
 import { images } from "./images";
 
 export const siteConfig = {
-  name: "PineLake Pharmacy",
-  shortName: "PineLake",
+  name: "Pine Lake Pharmacy",
+  shortName: "Pine Lake",
   tagline: "Local Care. Trusted Service.",
   heroHeadline: "Your Neighborhood Pharmacy",
   heroSubheadline: "Caring for Our Community.",
   intro:
-    "PineLake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve.",
+    "Pine Lake Pharmacy is a local, independent pharmacy dedicated to providing personalized care and the convenience you deserve.",
   motto: "Your health. Our priority. Every time.",
-  location: "PineLake",
+  location: "Pine Lake",
   city: "Sammamish",
   state: "Washington",
   zip: "98075",
@@ -27,7 +27,7 @@ export const siteConfig = {
   instagram: "https://www.instagram.com/pinelakepharmacy",
   instagramHandle: "@pinelakepharmacy",
   topBarMessage:
-    "Call us to set up a schedule to talk about your medication plan. PineLake Pharmacy is always at your service!",
+    "Call us to set up a schedule to talk about your medication plan. Pine Lake Pharmacy is always at your service!",
   heroImage: images.hero,
   vaccineBanner:
     "Flu, COVID-19, Shingles & more — immunizations available, walk-ins welcome",
