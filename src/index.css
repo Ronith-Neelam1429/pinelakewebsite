@@ -201,7 +201,7 @@ button {
 /* Hero */
 .hero {
   position: relative;
-  min-height: 480px;
+  min-height: 540px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -222,7 +222,7 @@ button {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(to right, rgba(242, 247, 251, 0.92) 38%, rgba(242, 247, 251, 0.25) 100%);
+  background: linear-gradient(to right, rgba(242, 247, 251, 0.5) 38%, rgba(242, 247, 251, 0) 100%);
 }
 
 .hero__content {
