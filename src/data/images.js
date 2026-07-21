@@ -11,8 +11,8 @@ export const images = {
   ],
 
   services: {
-    "auto-refills": `${CDN}/v1695564744/business/181302bbbaf746bfa0f67bc4953c0f61.jpg`,
-    "prescription-mail-out": `${CDN}/v1695564867/business/071d6a152e984ef2b93cab78427669b9.png`,
+    "auto-refills": "/images/auto-refills.png",
+    "prescription-mail-out": "/images/prescription-mail-out.png",
     "pharmacy-delivery": `${CDN}/v1695569869/business/8f9117fc163d4b57ba2b508f485f131e.jpg`,
     "special-packaging": `${CDN}/v1695569902/business/f0c29b28faea495fb571173b23ef3420.jpg`,
     immunization: `${CDN}/v1695569967/business/2ece7805f6464c2a946dbf8700ffe3e5.jpg`,
@@ -23,7 +23,7 @@ export const images = {
   products: {
     "diabetic-shoes": `${CDN}/v1695565464/business/c12db69b249d4e8bb5c866afd5508eef.png`,
     "diabetic-socks": `${CDN}/v1695565000/business/296165f38c4046d7bba159c8c11fa618.png`,
-    "insulin-injector": `${CDN}/v1695565753/business/7d28a34389e145119ee55bf05c54e4e3.png`,
+    "insulin-injector": `${CDN}/v1695564867/business/071d6a152e984ef2b93cab78427669b9.png`,
     "blood-glucose-exam-kit": `${CDN}/v1695564944/business/8c7fa62e7517497484cea70f42dc7a9b.png`,
     "adjustable-back-shower-gurney": `${CDN}/v1695565753/business/7d28a34389e145119ee55bf05c54e4e3.png`,
     "safe-bath-seat-riser": `${CDN}/v1695566380/business/661270e8b85f48f791a6542382a3759c.png`,

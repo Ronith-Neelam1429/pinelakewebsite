@@ -121,6 +121,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   padding: 12px 24px;
   max-width: 1200px;
   margin: 0 auto;
@@ -169,6 +170,9 @@ button {
   display: flex;
   align-items: center;
   gap: 28px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav__link {
@@ -1381,6 +1385,7 @@ button {
     top: 100%;
     left: 0;
     right: 0;
+    transform: none;
     background: var(--white);
     flex-direction: column;
     padding: 16px 24px;
@@ -1394,10 +1399,6 @@ button {
 
   .mobile-menu-btn {
     display: block;
-  }
-
-  .header__inner {
-    position: relative;
   }
 
   .hero__title {

@@ -71,18 +71,13 @@ export default function Header() {
             )}
           </nav>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <button className="nav__cart" aria-label="Shopping cart">
-              🛒
-            </button>
-            <button
-              className="mobile-menu-btn"
-              onClick={() => setMenuOpen(!menuOpen)}
-              aria-label="Toggle menu"
-            >
-              ☰
-            </button>
-          </div>
+          <button
+            className="mobile-menu-btn"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            ☰
+          </button>
         </div>
       </header>
     </>
