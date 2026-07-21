@@ -6,8 +6,8 @@ export const images = {
 
   about: [
     "/images/about-pharmacy.jpg",
-    "/images/about-consultation.jpg",
-    "/images/about-service.jpg",
+    "/images/about-community-care.png",
+    "/images/about-immunization.png",
   ],
 
   services: {
